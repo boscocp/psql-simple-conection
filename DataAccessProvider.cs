@@ -78,7 +78,7 @@ namespace PSQLConection.DataAccess
             }
         }
 
-        public void DeletePersonRecord(Int64 id)
+        public void DeletePersonRecord(Person person)
         {
             // var entity = _context.persons.FirstOrDefault(t => t.Id == id);  
             // _context.persons.Remove(entity);  
@@ -212,6 +212,5 @@ namespace PSQLConection.DataAccess
             _cmd.Parameters.AddWithValue("date_of_birth", person.BirthDate);
             _cmd.Parameters.AddWithValue("cpf", person.CPF);
         }
-
     }
 }

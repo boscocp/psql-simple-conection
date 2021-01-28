@@ -1,0 +1,64 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Google Drive\\Trabalho\\Estudar\\Desafio\\psql-simple-conection\\psql-simple-conection.csproj": {}
+  },
+  "projects": {
+    "D:\\Google Drive\\Trabalho\\Estudar\\Desafio\\psql-simple-conection\\psql-simple-conection.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Google Drive\\Trabalho\\Estudar\\Desafio\\psql-simple-conection\\psql-simple-conection.csproj",
+        "projectName": "psql-simple-conection",
+        "projectPath": "D:\\Google Drive\\Trabalho\\Estudar\\Desafio\\psql-simple-conection\\psql-simple-conection.csproj",
+        "packagesPath": "C:\\Users\\adalb\\.nuget\\packages\\",
+        "outputPath": "D:\\Google Drive\\Trabalho\\Estudar\\Desafio\\psql-simple-conection\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\adalb\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.405\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
